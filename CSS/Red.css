@@ -874,8 +874,8 @@ section .title span::after {
 }
 
 .social img{
-    margin: 15px;
-    width:25px;
+    margin: 17px;
+    width:40px;
     height:auto;
     transition: transform 0.4s ease;
 }
