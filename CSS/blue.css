@@ -5,6 +5,30 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+.changecontent::after{
+    content: ' ';
+    color: #fef9fa;
+    text-shadow: 5px 10px 10px  #CA43FF;
+    animation: changetext 15s infinite linear;
+    text-align: center;
+}
+@keyframes changetext {
+   
+    0%{content: 'Java';}
+    10%{content: 'Python';}
+    20%{content: 'C/C++';}
+    30%{content: 'HTML';}
+    40%{content: 'CSS';}
+    50%{content: 'BootStrap';}
+    60%{content: 'TailWind CSS';}
+    70%{content: 'React JS';}
+    80%{content: 'Node Js';}
+    90%{content: 'MongoDB';}
+    100%{content: 'SQL';}
+} 
+
 body {
     font-family:'Ubuntu', sans-serif;
     line-height: 1.6;
@@ -595,8 +619,8 @@ button {
 }
 
 .circle {
-    width: 200px; 
-    height: 200px;
+    width: 350px; 
+    height: 390px;
     border-radius: 50%;
 }
 
