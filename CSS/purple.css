@@ -619,8 +619,8 @@ button {
 }
 
 .circle {
-    width: 350px; 
-    height: 390px;
+    width:200px; 
+    height: 250px;
     border-radius: 50%;
 }
 
